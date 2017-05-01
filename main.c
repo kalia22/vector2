@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "enteroLargo.h"
-#include "vectordinamico.h"
+#include "entero.h"
+#include "vector.h"
 
 
 int main(int argc, char** argv) {
