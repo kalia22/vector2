@@ -1,13 +1,18 @@
-#include "vector.h"
 
-typedef void *entero;
+typedef int TELEMENTO;
 
-void creaEnteroLargo(entero *v1, unsigned long int tam1, int signo);
+typedef void * vectorP; 
 
-void asignarEntero(entero *v1,unsigned long int posicion, TELEMENTO valor);
+void crear(vectorP *v1,unsigned long int tam1);
 
-void liberarEntero(entero *v1);
+void asignar(vectorP *v1,unsigned long int posicion, TELEMENTO valor);
 
-TELEMENTO recuperarEntero(entero v1, unsigned long int posicion);
+void liberar(vectorP *v1);
 
-unsigned long int tamanhoEnt(entero v1);
+void swap(vectorP *pvector, unsigned long m,unsigned long n);
+
+void inicializaVectorRand(vectorP v1);
+
+TELEMENTO recuperar(vectorP v1, unsigned long int posicion);
+
+unsigned long int tamanho(vectorP v1);
