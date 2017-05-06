@@ -1,8 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include "enteroLargo.h"
-#include "vectordinamico.h"
+#include "entero.h"
+#include "vector.h"
 
 void multclas(entero v1, entero v2, entero *resultado){
     
